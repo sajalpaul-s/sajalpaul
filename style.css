@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+.main-div{
+    height: 100px;
+    width: 800px;
+    
+}
+.hedermenu{
+    background-color: black;
+    
+}
+.hedermenu ul{
+    text-align: center;
+    
+}
+.hedermenu ul li{
+    display: inline-block;
+    border-style: none;
+   
+}
+.hedermenu ul li a{
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.hedermenu ul li:hover> a{
+    background-color: rgba(41, 41, 221, 0.931);
+} 
+/*drop down menu*/
+.hedermenu ul li{
+    position: relative;
+  
+}
+.hedermenu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color:#222222;
+    top: 100%;
+
+}
+    
+    
+.hedermenu ul li ul li{
+    display: block;
+}
+.hedermenu ul li ul li a{
+    display: block;
+    border: 1px solid rgb(70, 64, 64);
+}
+
+/*hover part*/
+.hedermenu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+}
+.hedermenu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.hedermenu ul li ul li a:hover{}
+/*second part*/
+.hedermenu ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #222222;
+
+}
+
+.hedermenu ul li ul li ul{
+    opacity: 0;
+    visibility: hidden;
+}
+.hedermenu ul li ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+/*banner part*/
+.banner{background-image: url(https://i.ibb.co/3fL2qGj/photo-1490578474895-699cd4e2cf59.jpg);
+background-size: cover;
+padding: 200px;
+
+}
+    
+ .title1{
+     background-color: white;
+     display: inline-block;
+ }
+ .title2{}  
+ .title13{}    
